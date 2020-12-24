@@ -3,10 +3,9 @@
 // ----------------------------------------------------------------------------
 
 resource "azurerm_resource_group" "network" {
-  name     = "test-netowrk-tc"
+  name     = "test-rg-agaillet-tc"
   location = var.resources_location
 }
-
 
 //
 //resource "azurerm_resource_group" "cluster" {
