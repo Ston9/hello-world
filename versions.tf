@@ -3,10 +3,10 @@ terraform {
     azurerm = {
       source = "hashicorp/azurerm"
     }
-    # helm = {
-    #   version = "= 1.3.2"
-    #   source  = "hashicorp/helm"
-    # }
+    helm = {
+      version = "= 1.3.2"
+      source  = "hashicorp/helm"
+    }
   }
   required_version = ">= 0.13"
 }
